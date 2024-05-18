@@ -1,4 +1,4 @@
-# Bo-MA-CNN-BiLSTM NetWork
+# Bo-MA-CNN-BiLSTM NetWork for shear wave prediction
 In this study, we propose the Bo-MA-BiLSTM model, which integrates multi-head attention with two-dimensional convolution and bidirectional BiLSTM networks to extract feature data in both spatial and temporal dimensions. Additionally, we apply Bayesian optimization to fine-tune the model parameters.The dataset utilized comprises five different types of well logging data, including neutron, density, gamma-ray, resistivity, and Vp (compressional wave velocity).The dataset employed in this study consists of test data.  
 During the batch data processing, a sliding window approach was employed, with the added step of shuffling the windows, ensuring that the well logging data within the windows retains its temporal characteristics.
 ## We attempt to answer the following research questions:
